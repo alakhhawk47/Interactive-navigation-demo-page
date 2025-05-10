@@ -1,0 +1,137 @@
+/* Basic Reset & Body Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Slightly more modern font */
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation Bar Styling - Initial Colorful State */
+#main-nav {
+    position: fixed; /* Stick to the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Vibrant Gradient Background - Teal to Blue */
+    background: linear-gradient(90deg, rgba(0,128,128,0.9), rgba(0,77,153,0.9));
+    padding: 18px 0; /* Slightly more padding */
+    z-index: 1000; /* Ensure it's above other content */
+    transition: background 0.5s ease-out, padding 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    max-width: 1100px; /* Limit width */
+    margin: 0 auto; /* Center content */
+    display: flex;
+    justify-content: space-between; /* Space logo and links */
+    align-items: center; /* Vertically align items */
+    padding: 0 20px; /* Padding on smaller screens */
+}
+
+.nav-logo {
+    color: #ffffff; /* White logo */
+    text-decoration: none;
+    font-size: 1.6em; /* Slightly larger logo */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Subtle text shadow */
+    transition: color 0.3s ease;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#main-nav ul li {
+    margin-left: 30px; /* More spacing between links */
+}
+
+#main-nav ul li a {
+    color: #e0fbfc; /* Light cyan link color */
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px; /* Rounded pill shape */
+    font-weight: 500; /* Slightly bolder links */
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease; /* Add transform transition */
+}
+
+/* Hover effect for links - Initial State */
+#main-nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.25); /* Brighter background on hover */
+    color: #fff; /* White color on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* --- Scrolled State --- */
+#main-nav.scrolled {
+    /* Light Blue/Cyan Background */
+    background: #ffffff;
+    padding: 12px 0; /* Reduce padding */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+}
+
+#main-nav.scrolled .nav-logo {
+    color: #005f73; /* Dark Cyan logo text */
+}
+
+#main-nav.scrolled ul li a {
+    color: #0077b6; /* Medium Blue link text */
+}
+
+/* Hover effect for links when scrolled */
+#main-nav.scrolled ul li a:hover {
+    background-color: #e0fbfc; /* Light Cyan background */
+    color: #003459; /* Dark Blue text on hover */
+    transform: translateY(0); /* Reset transform */
+     box-shadow: none;
+}
+
+
+/* Dummy Content Styling (Keep as is or adjust if needed) */
+.section {
+    height: 100vh; /* Make sections tall enough to force scrolling */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px; /* More padding within sections */
+    text-align: center;
+    border-bottom: 1px solid #eee; /* Lighter border */
+}
+.section:first-of-type {
+     /* Adjust based on final nav height */
+     padding-top: 100px; /* Ensure first section content isn't hidden by nav */
+}
+.section:nth-of-type(odd) { /* Alternate background colors slightly */
+    background-color: #f8f9fa;
+}
+.section:nth-of-type(even) {
+    background-color: #e9ecef;
+}
+
+.section h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+.section h2 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+    color: #495057;
+}
+.section p {
+    font-size: 1.2em;
+    max-width: 650px;
+    color: #6c757d;
+}
