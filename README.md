@@ -4,7 +4,7 @@ A modern interactive navigation web page built using HTML, CSS, and JavaScript.
 This project demonstrates a dynamic navigation bar that responds to user interaction and enhances user experience on single-page layouts.
 
 ## 🚀 Live Demo
-🔗 https://navigation-alakh.netlify.app/#about
+🔗 https://alakhhawk47.github.io/Interactive-navigation-demo-page/
 
 ## 📌 Features
 - Interactive navigation highlighting
@@ -39,4 +39,7 @@ This project helps practice JavaScript DOM manipulation, smooth scrolling, and r
 
 ## 👨‍💻 Author
 **Alakh Raj Singh**  
-GitHub: https://github.com/alakhhawk47
+B.Tech EC – JSS Academy of Technical Education, 
+
+## GitHub: 
+🔗 https://github.com/alakhhawk47
