@@ -27,23 +27,16 @@ Interactive-navigation-demo-page
 │── assets/ (if present)
 
 ## 📷 Screenshot
-![Screenshot]()
+![Screenshot](Screenshot_20260220_120204.jpg)
 
-💻 How to Run Locally
+## 💻 How to Run Locally
+1. Clone this repository  
+2. Open the project folder  
+3. Open `index.html` in browser  
 
-Clone this repository
+## 🌱 Learning Purpose
+This project helps practice JavaScript DOM manipulation, smooth scrolling, and responsive web design fundamentals 
 
-Open the project folder
-
-Open index.html in your browser
-
-Scroll through the page to test interactive navigation
-
-🌱 Learning Purpose
-
-This project helps practice JavaScript DOM manipulation, smooth scrolling, and responsive web design fundamentals.
-
-👨‍💻 Author
-
-Alakh Raj Singh
+## 👨‍💻 Author
+**Alakh Raj Singh**  
 GitHub: https://github.com/alakhhawk47
